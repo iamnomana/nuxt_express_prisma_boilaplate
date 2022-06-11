@@ -20,7 +20,7 @@ module.exports = {
         hid: "description",
         name: "description",
         content:
-          "Nuxt Express Boilaplate, Nuxt Express Template, Express Prisma Template, ExpressJs, NuxtJs, Prisma, MySql, Sqlite",
+          "Nuxt Express Boilerplate, Nuxt Express Template, Express Prisma Template, ExpressJs, NuxtJs, Prisma, MySql, Sqlite",
       },
       { name: "format-detection", content: "telephone=no" },
     ],
@@ -145,6 +145,10 @@ module.exports = {
         },
       },
     ],
+  },
+
+  router: {
+    middleware: ["authenticated"],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

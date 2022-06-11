@@ -2,8 +2,8 @@
   <v-row justify="center">
     <v-dialog v-model="trigger" persistent max-width="290">
       <v-card>
-        <v-card-title class="text-h5 text-center">
-          Confirm Action
+        <v-card-title class="text-uppercase justify-content-center">
+          <div>Confirm Action</div>
         </v-card-title>
         <v-card-text>{{ message }}</v-card-text>
         <v-card-actions>
