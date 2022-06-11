@@ -1,68 +1,44 @@
-# nuxt_express_boilerplate
+# NuxtJS with ExpressJS
 
-## Build Setup
+> [ExpressJS](http://expressjs.com/) + [Nuxt.js](https://nuxtjs.org) = :zap:
+
+## Installation
+
+This is a template project, click on the green button "Use this template" at the top of this page and get started with GitHub :sparkles:
+
+One you cloned your repository, install the dependencies with:
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+yarn install # or npm install
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## ExpressJS Changes
 
-## Special Directories
+- There is a `api` directory with the root of your `api` server.
+- The `routes` directory is called `api/routes`.
+- The `controllers` directory is called `api/controllers`.
+- The `helpers` directory is called `api/helpers`.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## Commands
 
-### `assets`
+| Command    | Description                                                                                                                               |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| yarn dev   | Start ExpressJS server in development with Nuxt.js in dev mode (hot reloading). Listen on [http://localhost:8080](http://localhost:8080). |
+| yarn build | Build the Nuxt.js web application for production.                                                                                         |
+| yarn start | Start ExpressJS server in production.                                                                                                     |
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+## Examples
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+- [Handling Protected SSR Routes](https://github.com/nuxt/express/blob/master/protected-ssr-api.md)
 
-### `components`
+## Documentation
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+- [ExpressJS](http://expressjs.com/en/guide/routing.html)
+- [Nuxt.js](https://nuxtjs.org/guide/)
+- [Vue.js](http://vuejs.org/guide/)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+## Licenses
 
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+- [ExpressJS license](https://github.com/expressjs/express/blob/master/LICENSE)
+- [NuxtJS license](https://github.com/nuxt/nuxt.js/blob/master/LICENSE.md)
+- [VueJS license](https://github.com/vuejs/vue/blob/master/LICENSE)

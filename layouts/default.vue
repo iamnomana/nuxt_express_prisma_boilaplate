@@ -29,7 +29,7 @@
               href="https://www.github.com/iamnomana"
               target="_blank"
               rel="noopener noreferrer"
-              >Divine Nomana Azianka</a
+              >iamnomana</a
             >
           </span>
         </v-row>
