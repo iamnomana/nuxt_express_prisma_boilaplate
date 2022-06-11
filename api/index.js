@@ -1,15 +1,18 @@
 const express = require("express");
+const cors = require("cors");
 const { Builder, Nuxt } = require("nuxt");
 const nuxtConfig = require("../nuxt.config.js");
 
 const app = express();
 
 app.use(express.json());
+app.use(express.static(join(__dirname, "../", "dist")));
 app.use(
   express.urlencoded({
     extended: false,
   })
 );
+app.use(cors());
 
 const startServer = async () => {
   // We get Nuxt instance
