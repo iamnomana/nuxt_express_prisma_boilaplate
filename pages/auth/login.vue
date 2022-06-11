@@ -94,6 +94,7 @@ export default {
           });
 
           this.$toast.success(res.data.message, { icon: "check-bold" });
+          this.$router.push("/");
         } catch (e) {
           const res = e.response;
           this.$toast.error(res.data.message, { icon: "close-thick" });

@@ -20,7 +20,7 @@
 
       <v-footer app>
         <v-row no-gutters class="mx-15">
-          <div>{{ title }} &copy; MIT License 2022. All Rights Reserved.</div>
+          <div>&copy; {{ title }} 2022. All Rights Reserved.</div>
           <v-spacer></v-spacer>
           <span
             >Built with ❤️ by:
@@ -41,7 +41,7 @@
 <script>
 export default {
   data: () => ({
-    title: "Admin Template",
+    title: "Nuxt Express Boilerplate",
     miniVariant: false,
     drawer: null,
     fixed: false,

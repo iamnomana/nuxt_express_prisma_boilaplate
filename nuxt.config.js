@@ -123,7 +123,7 @@ module.exports = {
     redirects: {
       login: "/auth/login",
       logout: "/auth/login",
-      callback: "/auth/login",
+      // callback: "/",
       home: "/",
     },
   },
